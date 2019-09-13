@@ -1,0 +1,23 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-md-6">
+        <form>
+            <legend>Find out</legend>
+            <label for="bill">Bill Amount: $</label>
+            {{input value=billAmount}}
+            <br><br>
+
+            <label for="numP">Number of people: </label>
+            {{input value=numP}}
+            <br><br>
+
+            <label for="tip">Tip Amount: </label>
+            <button {{action "calculate" 15 billAmount numP}}>15%</button>
+            <button {{action "calculate" 18 billAmount numP}}>18%</button>
+            <button {{action "calculate" 20 billAmount numP}}>20%</button>
+            <br><br>
+
+            <div id="result"></div>
+
+        </form>
+    </div>
+</div>

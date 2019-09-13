@@ -1,0 +1,25 @@
+h1 {
+    text-decoration: underline;
+    background-color: black;
+    color: gold;
+}
+
+form{
+    background-color: lightblue;
+}
+legend{
+    font-weight: bolder;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+#result{
+    font-weight: bold;
+}
