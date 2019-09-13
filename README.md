@@ -34,7 +34,7 @@ I was confused as to why my component was not outputting but then I figured out 
 
 ## GIF Walkthrough
 
-![Walkthrough GIF](path/to/gif.gif)
+![Walkthrough GIF](vid.gif)
 
 GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
